@@ -1,0 +1,12 @@
+/Users/ivyfulford/Desktop/MIS321/mis321-pa2-isfulford/bin/Debug/netcoreapp3.1/mis321-pa2-isfulford.deps.json
+/Users/ivyfulford/Desktop/MIS321/mis321-pa2-isfulford/bin/Debug/netcoreapp3.1/mis321-pa2-isfulford.runtimeconfig.json
+/Users/ivyfulford/Desktop/MIS321/mis321-pa2-isfulford/bin/Debug/netcoreapp3.1/mis321-pa2-isfulford.runtimeconfig.dev.json
+/Users/ivyfulford/Desktop/MIS321/mis321-pa2-isfulford/bin/Debug/netcoreapp3.1/mis321-pa2-isfulford.dll
+/Users/ivyfulford/Desktop/MIS321/mis321-pa2-isfulford/bin/Debug/netcoreapp3.1/mis321-pa2-isfulford.pdb
+/Users/ivyfulford/Desktop/MIS321/mis321-pa2-isfulford/obj/Debug/netcoreapp3.1/mis321-pa2-isfulford.csprojAssemblyReference.cache
+/Users/ivyfulford/Desktop/MIS321/mis321-pa2-isfulford/obj/Debug/netcoreapp3.1/mis321-pa2-isfulford.AssemblyInfoInputs.cache
+/Users/ivyfulford/Desktop/MIS321/mis321-pa2-isfulford/obj/Debug/netcoreapp3.1/mis321-pa2-isfulford.AssemblyInfo.cs
+/Users/ivyfulford/Desktop/MIS321/mis321-pa2-isfulford/obj/Debug/netcoreapp3.1/mis321-pa2-isfulford.csproj.CoreCompileInputs.cache
+/Users/ivyfulford/Desktop/MIS321/mis321-pa2-isfulford/obj/Debug/netcoreapp3.1/mis321-pa2-isfulford.dll
+/Users/ivyfulford/Desktop/MIS321/mis321-pa2-isfulford/obj/Debug/netcoreapp3.1/mis321-pa2-isfulford.pdb
+/Users/ivyfulford/Desktop/MIS321/mis321-pa2-isfulford/obj/Debug/netcoreapp3.1/mis321-pa2-isfulford.genruntimeconfig.cache
