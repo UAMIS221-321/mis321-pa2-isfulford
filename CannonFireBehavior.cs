@@ -4,7 +4,7 @@ namespace mis321_pa2_isfulford
     public class CannonFireBehavior: IAttack
     {
         public void Attack(){
-            System.Console.WriteLine("Boom!");
+            System.Console.WriteLine("Boom!\n");
         }
     }
 }

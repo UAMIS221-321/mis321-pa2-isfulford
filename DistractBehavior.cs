@@ -4,7 +4,7 @@ namespace mis321_pa2_isfulford
     public class DistractBehavior: IAttack
     {
         public void Attack(){
-            System.Console.WriteLine("Wooo. I'm hiding.");
+            System.Console.WriteLine("Wooo. I'm hiding.\n");
         }
     }
 }

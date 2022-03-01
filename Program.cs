@@ -41,13 +41,14 @@ namespace mis321_pa2_isfulford
                         if((p1.Name == "Jack Sparrow" && p2.Name == "Will Turner")||(p1.Name == "Will Turner" && p2.Name == "Davy Jones")
                         ||(p1.Name == "Davy Jones" && p2.Name == "Jack Sparrow")){
                             p2.Health -= (p1.AttackStrength - p2.DefensivePower)* 1.2;
-                            Console.WriteLine("I used my type bonus");
                         }
                         else{
                             p2.Health -= (p1.AttackStrength - p2.DefensivePower);
                         }
                     }
-                    Console.WriteLine($"{p1.Name} {p1.attackBehavior}");
+                    //EXTRA actually shows the behavior in play
+                    Console.WriteLine($"{p1.Name} used their {p1.attackBehavior}");
+                    p1.attackBehavior.Attack();
                     ViewStats(p1.Health,p2.Health);
                     
                     Console.WriteLine("Player 2 Fight!");
@@ -69,6 +70,8 @@ namespace mis321_pa2_isfulford
                             p1.Health -= (p2.AttackStrength - p1.DefensivePower);
                         }
                     }
+                    Console.WriteLine($"{p2.Name} used their {p2.attackBehavior}");
+                    p2.attackBehavior.Attack();
                     ViewStats(p1.Health,p2.Health);
                 }
             }
@@ -99,6 +102,8 @@ namespace mis321_pa2_isfulford
                             p1.Health -= (p2.AttackStrength - p1.DefensivePower);
                         }
                     }
+                    Console.WriteLine($"{p2.Name} used their {p2.attackBehavior}");
+                    p2.attackBehavior.Attack();
                     ViewStats(p1.Health,p2.Health);
 
                     Console.WriteLine("Player 1 Fight!");
@@ -122,6 +127,8 @@ namespace mis321_pa2_isfulford
                             p2.Health -= (p1.AttackStrength - p2.DefensivePower);
                         }
                     }
+                    Console.WriteLine($"{p1.Name} used their {p1.attackBehavior}");
+                    p1.attackBehavior.Attack();
                     ViewStats(p1.Health,p2.Health);
                 }
             }
@@ -143,7 +150,7 @@ namespace mis321_pa2_isfulford
         }
         public static Character CharacterChoice(Character playerCharacter){
             Console.WriteLine("Please choose a player from the following menu");
-            Console.WriteLine("1) Jack Sparrow 2) Will Turner 3) Davy Jones");
+            Console.WriteLine("1) Jack Sparrow 2) Will Turner 3) Davy Jones 4) Surprise");
             int choice = int.Parse(Console.ReadLine());
             string tempUserName = playerCharacter.UserName;
 
@@ -156,9 +163,15 @@ namespace mis321_pa2_isfulford
                 playerCharacter.Name = "Will Turner";
 
             }
-            else{
+            else if(choice == 3){
                 playerCharacter = new DavyJones();
                 playerCharacter.Name = "Davy Jones";
+            }
+            else{
+                //EXTRA new character
+                //EXTRA character has an AttackStrength upgrade over all other characters
+                playerCharacter = new TheBigBoss();
+                playerCharacter.Name = "I Wonder Who";
             }
             
             playerCharacter.UserName = tempUserName;
